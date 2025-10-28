@@ -2,6 +2,7 @@
 import EstadoUsuario from './components/EstadoUsuario.vue';
 import DetalleProducto from './components/DetalleProducto.vue';
 import ListaTareas from './components/ListaTareas.vue';
+import ResumenPedidos from './components/ResumenPedidos.vue';
 </script>
 
 <template>
@@ -14,6 +15,9 @@ import ListaTareas from './components/ListaTareas.vue';
   </span>
   <span class="component"> 
     <ListaTareas></ListaTareas>
+  </span>
+  <span class="component"> 
+    <ResumenPedidos></ResumenPedidos>
   </span>
 </template>
 
