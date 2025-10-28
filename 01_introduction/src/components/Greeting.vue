@@ -11,6 +11,7 @@ const onClick = () => {
 </script>
 
 
+
 <template>
 <section class="greeting">
     <p>Hola, {{ props.name }} 👋</p>
