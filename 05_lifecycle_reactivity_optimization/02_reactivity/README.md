@@ -1,6 +1,6 @@
 # Reactividad: `ref`, `computed`, `watch` y `watchEffect`
 
-Proyecto vinculado al capítulo “Ciclo de vida y propiedades derivadas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Incluye módulos para cada primitiva reactiva fundamental.
+Proyecto vinculado al capítulo “Ciclo de vida y propiedades derivadas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Incluye módulos para cada primitiva reactiva fundamental.
 
 ## Qué revisar
 - Estado mutable con `ref` y estructuras derivadas con `computed`.

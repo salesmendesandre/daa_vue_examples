@@ -1,6 +1,6 @@
 # `v-model` personalizado (`update:modelValue`)
 
-Ejemplo complementario al capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Enseña a crear componentes que exponen su propio `v-model`.
+Ejemplo complementario al capítulo “Configuración y componentes” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Enseña a crear componentes que exponen su propio `v-model`.
 
 ## Lo que practicarás
 - Definir props obligatorias (`modelValue`, `label`).

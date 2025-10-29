@@ -1,6 +1,6 @@
 # Eventos personalizados en formularios
 
-Mini proyecto conectado al capítulo “Manejo de formularios y eventos” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html). Enseña a propagar información desde un componente hijo (`BotonEnviar`) hacia el contenedor principal mediante eventos personalizados.
+Mini proyecto conectado al capítulo “Manejo de formularios y eventos” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html). Enseña a propagar información desde un componente hijo (`BotonEnviar`) hacia el contenedor principal mediante eventos personalizados.
 
 ## Objetivos de aprendizaje
 - Declarar eventos con `defineEmits` y emitir payloads con metadatos.

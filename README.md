@@ -1,6 +1,6 @@
-# Ejemplos del libro `daa_vue`
+# Ejemplos del libro "Desarrollo de Aplicaciones Avanzadas con Vue"
 
-Este repositorio reúne los proyectos de apoyo descritos en el libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/intro.html). Cada carpeta corresponde a un ejemplo práctico que profundiza en los conceptos presentados capítulo a capítulo.
+Este repositorio reúne los proyectos de apoyo descritos en el libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/intro.html). Cada carpeta corresponde a un ejemplo práctico que profundiza en los conceptos presentados capítulo a capítulo.
 
 ## Cómo ejecutar cualquier ejemplo
 1. Instala dependencias con `npm install`.

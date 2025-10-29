@@ -1,6 +1,6 @@
 # Ganchos de ciclo de vida
 
-Ejemplo asociado al capítulo “Ciclo de vida y propiedades derivadas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Permite observar en consola cuándo se dispara cada hook de Vue 3.
+Ejemplo asociado al capítulo “Ciclo de vida y propiedades derivadas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Permite observar en consola cuándo se dispara cada hook de Vue 3.
 
 ## Qué practicarás
 - Uso de `onBeforeMount`, `onMounted`, `onBeforeUpdate`, `onUpdated`, `onBeforeUnmount` y `onUnmounted`.

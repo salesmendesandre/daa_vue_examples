@@ -1,6 +1,6 @@
 # Lista filtrada con propiedades computadas
 
-Ejercicio alineado con el capítulo “Ciclo de vida y propiedades derivadas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Muestra cómo derivar resultados optimizados a partir del estado usando `computed`.
+Ejercicio alineado con el capítulo “Ciclo de vida y propiedades derivadas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Muestra cómo derivar resultados optimizados a partir del estado usando `computed`.
 
 ## Objetivos
 - Crear filtros reactivos basados en la entrada del usuario.

@@ -1,6 +1,6 @@
 # Composición con slots
 
-Ejemplo práctico del capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Explora slots por defecto, slots nombrados y cómo pasar acciones a componentes contenidos.
+Ejemplo práctico del capítulo “Plantillas y directivas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Explora slots por defecto, slots nombrados y cómo pasar acciones a componentes contenidos.
 
 ## Qué practicarás
 - Añadir contenido variable dentro de componentes (`TarjetaBase`).

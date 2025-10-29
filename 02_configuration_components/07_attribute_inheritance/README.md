@@ -1,6 +1,6 @@
 # Herencia de atributos con `$attrs`
 
-Ejemplo asociado al capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Muestra cómo permitir que un componente pase atributos arbitrarios a su elemento raíz.
+Ejemplo asociado al capítulo “Configuración y componentes” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Muestra cómo permitir que un componente pase atributos arbitrarios a su elemento raíz.
 
 ## Objetivos
 - Entender `inheritAttrs` y su configuración por defecto.

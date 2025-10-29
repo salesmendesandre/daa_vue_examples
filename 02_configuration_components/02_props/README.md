@@ -1,6 +1,6 @@
 # Props declarativas con `defineProps`
 
-Ejemplo asociado al capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Muestra cómo declarar props tipadas en componentes creados con `<script setup>`.
+Ejemplo asociado al capítulo “Configuración y componentes” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Muestra cómo declarar props tipadas en componentes creados con `<script setup>`.
 
 ## Qué repasar
 - Validaciones básicas (`type`, `required`) y props opcionales.

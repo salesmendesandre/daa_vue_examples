@@ -1,6 +1,6 @@
 # Formularios y modificadores de eventos
 
-Colección de ejemplos que acompaña el capítulo “Manejo de formularios y eventos” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html). Incluye campos controlados, validaciones básicas y modificadores de eventos.
+Colección de ejemplos que acompaña el capítulo “Manejo de formularios y eventos” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html). Incluye campos controlados, validaciones básicas y modificadores de eventos.
 
 ## Qué encontrarás
 - Componentes simples (`CampoCorreo`) para practicar `v-model` con inputs específicos.

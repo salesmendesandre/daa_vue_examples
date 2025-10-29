@@ -1,6 +1,6 @@
 # Introducción a Vue 3
 
-Este proyecto acompaña al capítulo “Introducción a Vue” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c1_introduccion_a_vue.html). Aquí verás cómo levantar una aplicación con Vite, crear tu primer componente y montarlo en la página.
+Este proyecto acompaña al capítulo “Introducción a Vue” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c1_introduccion_a_vue.html). Aquí verás cómo levantar una aplicación con Vite, crear tu primer componente y montarlo en la página.
 
 ## Qué repasar antes
 - Haber leído la [introducción del libro](https://salesmendesandre.github.io/daa_vue/main/intro.html).

@@ -1,6 +1,6 @@
 # Condicionales y bucles en plantillas
 
-Ejemplo complementario al capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Se centra en `v-if`, `v-else-if`, `v-else` y `v-for`.
+Ejemplo complementario al capítulo “Plantillas y directivas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Se centra en `v-if`, `v-else-if`, `v-else` y `v-for`.
 
 ## Puntos destacados
 - Mostrar vistas alternativas basadas en el estado (`EstadoUsuario.vue`).

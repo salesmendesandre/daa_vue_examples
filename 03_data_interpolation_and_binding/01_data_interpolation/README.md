@@ -1,6 +1,6 @@
 # Interpolación y bindings esenciales
 
-Ejemplo vinculado al capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Resume los primeros ejercicios de interpolación de texto, enlaces dinámicos y clases dependientes del estado.
+Ejemplo vinculado al capítulo “Plantillas y directivas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Resume los primeros ejercicios de interpolación de texto, enlaces dinámicos y clases dependientes del estado.
 
 ## Qué se trabaja
 - Uso de `{{ }}` para mostrar propiedades reactivas.

@@ -1,6 +1,6 @@
 # Directiva `v-cloak` para evitar parpadeos
 
-Mini ejemplo del capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Enseña cómo ocultar el contenido hasta que Vue monte la aplicación y reemplace las interpolaciones.
+Mini ejemplo del capítulo “Plantillas y directivas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Enseña cómo ocultar el contenido hasta que Vue monte la aplicación y reemplace las interpolaciones.
 
 ## Qué observar
 - La directiva `v-cloak` aplicada a la raíz (`<main>`).

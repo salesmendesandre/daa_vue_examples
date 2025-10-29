@@ -1,6 +1,6 @@
 # Eventos nativos y modificadores
 
-Apoyo práctico al capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Ilustra cómo escuchar eventos nativos (`click`, `submit`, `focus`) desde la plantilla.
+Apoyo práctico al capítulo “Configuración y componentes” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Ilustra cómo escuchar eventos nativos (`click`, `submit`, `focus`) desde la plantilla.
 
 ## Claves del ejemplo
 - Uso de `@submit.prevent` para manejar formularios sin recargar la página.

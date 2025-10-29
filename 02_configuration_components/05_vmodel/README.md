@@ -1,6 +1,6 @@
 # `v-model` en inputs controlados
 
-Ejemplo alineado con el capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Demuestra cómo enlazar el estado de un componente con campos de formulario usando `v-model`.
+Ejemplo alineado con el capítulo “Configuración y componentes” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Demuestra cómo enlazar el estado de un componente con campos de formulario usando `v-model`.
 
 ## Conceptos clave
 - Estado reactivo con `ref`.

@@ -1,6 +1,6 @@
 # Registro de componentes: local vs global
 
-Este ejemplo desarrolla el apartado de registro de componentes del capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html).
+Este ejemplo desarrolla el apartado de registro de componentes del capítulo “Configuración y componentes” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html).
 
 ## Qué aprenderás
 - Diferenciar cuándo registrar componentes de forma local (dentro de `<script setup>`) o global (en `main.js`).

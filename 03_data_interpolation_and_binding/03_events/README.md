@@ -1,6 +1,6 @@
 # Eventos en componentes y formularios
 
-Proyecto ilustrativo del capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Reúne ejemplos de escucha de eventos en botones, formularios y campos controlados.
+Proyecto ilustrativo del capítulo “Plantillas y directivas” del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Reúne ejemplos de escucha de eventos en botones, formularios y campos controlados.
 
 ## Conceptos clave
 - Eventos básicos (`@click`) y personalizados con parámetros.
