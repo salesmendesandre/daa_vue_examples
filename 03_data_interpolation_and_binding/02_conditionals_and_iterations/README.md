@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Condicionales y bucles en plantillas
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo complementario al capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Se centra en `v-if`, `v-else-if`, `v-else` y `v-for`.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Puntos destacados
+- Mostrar vistas alternativas basadas en el estado (`EstadoUsuario.vue`).
+- Iterar sobre listas con claves estables (`ListaTareas.vue`, `ResumenPedidos.vue`).
+- Combinación de condicionales e iteraciones en un mismo componente.
+
+## Cómo ejecutarlo
+```bash
+npm install
+npm run dev
+```
+
+Explora los componentes en `src/components/` y replica los ejercicios del capítulo: intenta añadir filtros previos al renderizado o mensajes para listas vacías que usen `v-if` y `v-else`.

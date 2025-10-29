@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Eventos en componentes y formularios
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Proyecto ilustrativo del capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Reúne ejemplos de escucha de eventos en botones, formularios y campos controlados.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Conceptos clave
+- Eventos básicos (`@click`) y personalizados con parámetros.
+- Uso de modificadores como `@submit.prevent` y `@keyup.enter`.
+- Gestión de estado reactivo y mensajes de feedback (`FormularioLogin.vue`).
+
+## Cómo correrlo
+```bash
+npm install
+npm run dev
+```
+
+Interactúa con cada componente del directorio `src/components/`. Añade tus propios listeners (por ejemplo, `@blur`, `@keyup.escape`) tal como propone el libro para afianzar el control de eventos.

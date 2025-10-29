@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Interpolación y bindings esenciales
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo vinculado al capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Resume los primeros ejercicios de interpolación de texto, enlaces dinámicos y clases dependientes del estado.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué se trabaja
+- Uso de `{{ }}` para mostrar propiedades reactivas.
+- Atributos enlazados con `v-bind`.
+- Renderizado condicional de componentes y estilos.
+
+## Puesta en marcha
+```bash
+npm install
+npm run dev
+```
+
+Analiza cada componente en `src/components/` y vincula el comportamiento con las secciones del capítulo. Añade un nuevo ejemplo combinando `v-bind:class` y `v-bind:style` para reforzar la lectura.

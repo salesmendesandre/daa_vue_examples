@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Eventos personalizados en formularios
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Mini proyecto conectado al capítulo “Manejo de formularios y eventos” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html). Enseña a propagar información desde un componente hijo (`BotonEnviar`) hacia el contenedor principal mediante eventos personalizados.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Objetivos de aprendizaje
+- Declarar eventos con `defineEmits` y emitir payloads con metadatos.
+- Actualizar estado en el componente padre (`ultimoEnvio`) cada vez que se dispara la acción.
+- Formatear la información recibida (timestamp → hora legible) como sugiere el capítulo.
+
+## Cómo ejecutarlo
+```bash
+npm install
+npm run dev
+```
+
+Haz clic en el botón y revisa cómo cambia la marca de tiempo. Amplía el payload con más datos (por ejemplo, usuario, formulario válido) conforme a los ejercicios recomendados en el libro.

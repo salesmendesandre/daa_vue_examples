@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# Herencia de atributos con `$attrs`
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo asociado al capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Muestra cómo permitir que un componente pase atributos arbitrarios a su elemento raíz.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Objetivos
+- Entender `inheritAttrs` y su configuración por defecto.
+- Reenviar atributos (`type`, `aria-*`, clases adicionales) a partir de `$attrs`.
+
+## Cómo ejecutarlo
+```bash
+npm install
+npm run dev
+```
+
+Revisa `src/components/BotonBasico.vue`, añade nuevos atributos desde `src/App.vue` y confirma en las DevTools que llegan al elemento final. Este patrón es el que se recomienda en el capítulo para componentes altamente reutilizables.

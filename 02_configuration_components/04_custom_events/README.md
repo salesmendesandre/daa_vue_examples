@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# Emisión de eventos personalizados
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Caso práctico del capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Aprenderás a emitir datos desde un componente hijo hacia su padre.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué verás aquí
+- Declaración de eventos con `defineEmits`.
+- Actualización del estado del padre a partir del payload emitido (`increment`).
+
+## Ponlo en marcha
+```bash
+npm install
+npm run dev
+```
+
+Interactúa con `ContadorBoton` y revisa cómo el valor acumulado se refleja en el componente padre. Prueba a enviar un objeto con más información (usuario, fecha) para replicar los ejercicios del capítulo.

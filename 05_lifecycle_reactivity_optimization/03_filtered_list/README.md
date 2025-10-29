@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Lista filtrada con propiedades computadas
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejercicio alineado con el capítulo “Ciclo de vida y propiedades derivadas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Muestra cómo derivar resultados optimizados a partir del estado usando `computed`.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Objetivos
+- Crear filtros reactivos basados en la entrada del usuario.
+- Evitar recomputaciones innecesarias al derivar datos con `computed`.
+- Aplicar buenas prácticas para listas renderizadas con `v-for`.
+
+## Cómo ejecutarlo
+```bash
+npm install
+npm run dev
+```
+
+Prueba diferentes términos en el campo de búsqueda y observa cómo se actualiza la lista. Añade una propiedad calculada adicional (por ejemplo, ordenar por precio) tal como se sugiere en el capítulo para extender el caso práctico.

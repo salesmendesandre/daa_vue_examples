@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Registro de componentes: local vs global
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este ejemplo desarrolla el apartado de registro de componentes del capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué aprenderás
+- Diferenciar cuándo registrar componentes de forma local (dentro de `<script setup>`) o global (en `main.js`).
+- Compartir componentes reutilizables sin duplicar imports.
+- Controlar el montaje global de elementos como botones o layouts.
+
+## Cómo probarlo
+```bash
+npm install
+npm run dev
+```
+
+Explora `src/App.vue` para ver el registro local con `import`, y revisa `src/main.js` para el registro global mediante `app.component`. Intenta añadir un nuevo componente y decidir si debe ser global o local según lo explicado en el capítulo.

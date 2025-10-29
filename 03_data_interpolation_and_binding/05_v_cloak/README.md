@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Directiva `v-cloak` para evitar parpadeos
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Mini ejemplo del capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Enseña cómo ocultar el contenido hasta que Vue monte la aplicación y reemplace las interpolaciones.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué observar
+- La directiva `v-cloak` aplicada a la raíz (`<main>`).
+- Estilos que ocultan el contenido hasta que Vue elimina el atributo.
+- Uso recomendado cuando se entrega HTML renderizado en servidor o se carga desde CDN.
+
+## Cómo verlo en acción
+```bash
+npm install
+npm run dev
+```
+
+Abre las DevTools del navegador, inspecciona el DOM antes y después de la hidratación y verifica cómo Vue retira el atributo `v-cloak`, siguiendo las indicaciones del capítulo.

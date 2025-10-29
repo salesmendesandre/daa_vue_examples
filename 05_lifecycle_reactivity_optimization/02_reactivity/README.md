@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Reactividad: `ref`, `computed`, `watch` y `watchEffect`
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Proyecto vinculado al capítulo “Ciclo de vida y propiedades derivadas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Incluye módulos para cada primitiva reactiva fundamental.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué revisar
+- Estado mutable con `ref` y estructuras derivadas con `computed`.
+- Observación de cambios específicos con `watch`.
+- Efectos reactivos automáticos mediante `watchEffect`.
+
+## Puesta en marcha
+```bash
+npm install
+npm run dev
+```
+
+Explora los componentes del directorio `src/components/` y observa los logs que aparecen en la consola del navegador. Sigue las variaciones propuestas en el capítulo para entender cuándo conviene cada primitiva (por ejemplo, comparar `watch` vs `watchEffect`).

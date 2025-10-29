@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# Props declarativas con `defineProps`
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo asociado al capítulo “Configuración y componentes” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c2_configuracion_y_componentes.html). Muestra cómo declarar props tipadas en componentes creados con `<script setup>`.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué repasar
+- Validaciones básicas (`type`, `required`) y props opcionales.
+- Uso de props para comunicar datos desde el componente padre hacia el hijo.
+
+## Cómo explorarlo
+```bash
+npm install
+npm run dev
+```
+
+Observa `src/components/TituloSeccion.vue` para ver `defineProps` en acción. Modifica los valores en `src/App.vue` y añade nuevas props (por ejemplo, un icono o estado) tal como se propone en el capítulo.

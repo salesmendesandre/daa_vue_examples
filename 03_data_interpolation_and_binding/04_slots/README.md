@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Composición con slots
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo práctico del capítulo “Plantillas y directivas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p1c3_plantillas_y_directivas.html). Explora slots por defecto, slots nombrados y cómo pasar acciones a componentes contenidos.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué practicarás
+- Añadir contenido variable dentro de componentes (`TarjetaBase`).
+- Usar slots nombrados (`#titulo`, `#acciones`) para estructurar layout (`TarjetaSecciones`).
+- Pasar callbacks (`notificar`) y utilizarlas dentro del slot de acciones.
+
+## Ejecución
+```bash
+npm install
+npm run dev
+```
+
+Edita `TarjetaSecciones.vue` para incluir un `slot` adicional (por ejemplo, `#resumen`) y conecta los cambios con los ejercicios del capítulo sobre composición de interfaces.

@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# Ganchos de ciclo de vida
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo asociado al capítulo “Ciclo de vida y propiedades derivadas” del libro [`daa_vue`](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html). Permite observar en consola cuándo se dispara cada hook de Vue 3.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué practicarás
+- Uso de `onBeforeMount`, `onMounted`, `onBeforeUpdate`, `onUpdated`, `onBeforeUnmount` y `onUnmounted`.
+- Control del montaje y desmontaje de un componente mediante un booleano reactivo (`visible`).
+
+## Cómo probarlo
+```bash
+npm install
+npm run dev
+```
+
+Abre la consola del navegador, alterna el botón “Cambiar estado de montaje” y sigue la secuencia de logs. Amplía el ejemplo añadiendo efectos secundarios (peticiones simuladas, timers) como se sugiere en el capítulo para entrenar buenas prácticas de limpieza.
