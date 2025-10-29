@@ -1,5 +1,7 @@
 # Ejemplos del libro "Desarrollo de Aplicaciones Avanzadas con Vue"
 
+![Portada del libro Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/_static/Cover.png)
+
 Este repositorio reúne los proyectos de apoyo descritos en el libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/intro.html). Cada carpeta corresponde a un ejemplo práctico que profundiza en los conceptos presentados capítulo a capítulo.
 
 ## Cómo ejecutar cualquier ejemplo
