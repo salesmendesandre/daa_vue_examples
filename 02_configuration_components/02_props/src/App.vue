@@ -1,6 +1,14 @@
 <template>
   <TituloSeccion
-    texto="Dashboard"
+    texto="Qué hicimos hoy"
+    descripcion="Resumen de la jornada"
+  />
+  <TituloSeccion
+    texto="Qué vamos a hacer mañana"
+    descripcion="Resumen de la jornada"
+  />
+  <TituloSeccion
+    texto="Qué vamos a hacer pasado mañana"
     descripcion="Resumen de la jornada"
   />
 </template>
