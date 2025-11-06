@@ -43,8 +43,7 @@ Este repositorio reúne los proyectos de apoyo descritos en el libro [Desarrollo
 - `05_lifecycle_reactivity_optimization/03_filtered_list`: optimización de listas mediante propiedades computadas. [Capítulo 5](https://salesmendesandre.github.io/daa_vue/main/vue/p2c5_ciclo_de_vida_y_computed.html)
 
 ### Capítulo 6 – Formularios y Eventos Personalizados
-- `06_forms_and_events/01_forms`: campos controlados, validación básica y modificadores de eventos. [Capítulo 6](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html)
-- `06_forms_and_events/02_custom_events`: propagación de datos desde componentes hijos mediante eventos personalizados. [Capítulo 6](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html)
+- `06_forms_and_events/01_forms`: campos controlados, validación básica y modificadores de eventos. [Capítulo 6](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios.html)
 
 ### Capítulo 7 – Ruteo y Estado Global
 - `07_router_and_global_state/01_vue_router`: configuración mínima de Vue Router con enlaces declarativos y `<router-view>`. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
