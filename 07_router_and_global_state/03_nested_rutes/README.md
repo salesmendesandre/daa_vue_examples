@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Rutas anidadas para un CRUD
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo vinculado al capítulo [Ruteo y Estado Global](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html). Muestra cómo estructurar un flujo CRUD dentro de un layout padre que mantiene navegación y acciones comunes.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué encontrarás
+- `ProductosLayout.vue` funcionando como contenedor con un `<RouterView>` secundario y enlaces hacia cada operación.
+- Rutas hijas para `/productos`, `/productos/nuevo`, `/productos/:id` y `/productos/:id/editar`, configuradas en `src/router/index.js`.
+- Componentes simples para listar, crear, detallar y editar productos, listos para conectar con un store o una API.
+
+## Cómo correrlo
+```
+npm install
+npm run dev
+```
+
+Utiliza la navegación lateral para recorrer cada estado del CRUD y adapta los componentes según tu dominio, tal como se sugiere en el capítulo.

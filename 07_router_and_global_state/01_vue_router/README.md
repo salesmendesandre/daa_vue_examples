@@ -1,5 +1,16 @@
-# Vue 3 + Vite
+# Router básico: Home y About
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ejemplo que acompaña el capítulo [Ruteo y Estado Global](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html) del libro *Desarrollo de Aplicaciones Avanzadas con Vue*. Muestra la configuración mínima de Vue Router y el uso de `<RouterLink>` / `<RouterView>`.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué encontrarás
+- `src/router/index.js` con `createRouter` y `createWebHistory`, más dos rutas (`/` y `/about`) con nombres declarados.
+- `App.vue` actuando como layout: encabezado con navegación SPA y el `<router-view>` para cargar cada vista.
+- Vistas `HomeView` y `AboutView` para practicar navegación sin recargar la página.
+
+## Cómo correrlo
+```
+npm install
+npm run dev
+```
+
+Explora `src/views` para extender el ejemplo con nuevas páginas, middlewares o navegación programática tal como se propone en el capítulo.

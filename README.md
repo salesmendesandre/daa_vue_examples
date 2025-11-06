@@ -46,4 +46,11 @@ Este repositorio reúne los proyectos de apoyo descritos en el libro [Desarrollo
 - `06_forms_and_events/01_forms`: campos controlados, validación básica y modificadores de eventos. [Capítulo 6](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html)
 - `06_forms_and_events/02_custom_events`: propagación de datos desde componentes hijos mediante eventos personalizados. [Capítulo 6](https://salesmendesandre.github.io/daa_vue/main/vue/p2c6_manejo_de_formularios_y_eventos.html)
 
+### Capítulo 7 – Ruteo y Estado Global
+- `07_router_and_global_state/01_vue_router`: configuración mínima de Vue Router con enlaces declarativos y `<router-view>`. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
+- `07_router_and_global_state/02_dinamic_rutes`: parámetros dinámicos (`/usuarios/:id`) y consumo de `useRoute()`. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
+- `07_router_and_global_state/03_nested_rutes`: layouts anidados y rutas hijas para un CRUD de productos. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
+- `07_router_and_global_state/04_pinia`: store global con Pinia, getters y acciones para compartir estado. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
+- `07_router_and_global_state/05_pinia_and_router`: integración Pinia + Router con navegación programática y selección global. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
+
 Si detectas una diferencia entre el libro y el ejemplo correspondiente, abre un issue o un pull request para mantener el material sincronizado.
