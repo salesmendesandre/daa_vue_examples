@@ -1,11 +1,11 @@
 <script setup>
-  import FormExample from './components/Form.vue';
+  import ProductForm from './components/ProductForm.vue';
 </script>
 
 <template>
   <div class="p-4 md:p-5">
     <div class="layout">
-     <form-example />
+      <ProductForm />
     </div>
   </div>
 </template>
