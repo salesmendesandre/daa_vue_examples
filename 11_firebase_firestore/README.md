@@ -1,6 +1,6 @@
 # CRUD con Firestore (Vue 3)
 
-Ejemplo que acompaña el capítulo sobre Firestore del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p4c11_firebase_firestore.html). Implementa un CRUD completo de productos usando la API modular de Firebase v9.
+Ejemplo que acompaña el capítulo sobre Firestore del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p4c11_firebase_firestore.html). Implementa un CRUD completo de items usando la API modular de Firebase v9.
 
 ## Qué repasar antes
 - Haber configurado tu proyecto y credenciales en Firebase (usa `.env.example` como guía).
