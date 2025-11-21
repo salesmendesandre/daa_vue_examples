@@ -52,4 +52,22 @@ Este repositorio reúne los proyectos de apoyo descritos en el libro [Desarrollo
 - `07_router_and_global_state/04_pinia`: store global con Pinia, getters y acciones para compartir estado. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
 - `07_router_and_global_state/05_pinia_and_router`: integración Pinia + Router con navegación programática y selección global. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
 
+### Capítulo 8 – PrimeVue y ecosistema
+- `08_prime_vue/01_prime_vue`: instalación de PrimeVue con tema Aura, PrimeFlex e íconos, usando auto-import de componentes. [Capítulo 8](https://salesmendesandre.github.io/daa_vue/main/vue/p3c8_prime_vue.html)
+
+### Capítulo 9 – Formularios con PrimeVue Forms
+- `09_prime_vue_forms/01_prime_vue_forms`: formularios con el add-on `@primevue/forms` y validación con resolutores basados en Zod. [Capítulo 9](https://salesmendesandre.github.io/daa_vue/main/vue/p3c9_prime_vue_forms.html)
+
+### Capítulo 10 – Integración Firebase: Autenticación
+- `10_firebase_auth`: configuración del SDK modular v9, alta e inicio de sesión con email/contraseña y Google, más gestión de sesión reactiva. [Capítulo 10](https://salesmendesandre.github.io/daa_vue/main/vue/p4c10_firebase_auth_firestore.html)
+
+### Capítulo 11 – CRUD en Firestore
+- `11_firebase_firestore`: servicios para `addDoc`, `getDoc`, `updateDoc`, `deleteDoc` y `onSnapshot`, con vistas de listado, alta y edición. [Capítulo 11](https://salesmendesandre.github.io/daa_vue/main/vue/p4c11_firebase_firestore.html)
+
+### Capítulo 12 – Imágenes como Base64 en Firestore
+- `12_firebase_images_in_firestore`: carga de imágenes desde `input file`, conversión a Base64, guardado en Firestore y previsualización. [Capítulo 12](https://salesmendesandre.github.io/daa_vue/main/vue/p4c12_firebase_images_in_firestore.html)
+
+### Utilidades
+- `99_utils/01_primevue_starter`: plantilla base con PrimeVue (tema Aura, PrimeFlex, íconos y auto-import) lista para clonar y arrancar sin reconfigurar cada proyecto.
+
 Si detectas una diferencia entre el libro y el ejemplo correspondiente, abre un issue o un pull request para mantener el material sincronizado.

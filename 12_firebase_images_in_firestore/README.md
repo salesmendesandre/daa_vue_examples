@@ -1,5 +1,22 @@
-# Vue 3 + Vite
+# Imágenes en Firestore como Base64
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Proyecto del capítulo sobre subir imágenes en Base64 del libro [Desarrollo de Aplicaciones Avanzadas con Vue](https://salesmendesandre.github.io/daa_vue/main/vue/p4c12_firebase_images_in_firestore.html). Sirve como hack rápido cuando no se dispone de un backend o storage dedicado.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Qué repasar antes
+- Tener configurado Firebase y Firestore (variables en `.env.local` según `.env.example`).
+- Conocer el flujo base de autenticación y CRUD de los ejemplos 10 y 11.
+- Node.js 18+ y dependencias instaladas.
+
+## Qué incluye el ejemplo
+- Lectura de un `input type="file"`, conversión a Base64 y previsualización inmediata.
+- Persistencia de la cadena Base64 en Firestore y renderizado posterior.
+- Componentes simples en Vue 3 con Composition API y enrutado básico.
+- Advertencias sobre peso de Base64 y uso en prototipos o imágenes pequeñas.
+
+## Cómo ejecutar
+```bash
+npm install
+npm run dev
+```
+
+Abre `http://localhost:5173`, selecciona una imagen ligera y observa cómo se guarda y recupera desde Firestore.
