@@ -53,10 +53,10 @@ Este repositorio reúne los proyectos de apoyo descritos en el libro [Desarrollo
 - `07_router_and_global_state/05_pinia_and_router`: integración Pinia + Router con navegación programática y selección global. [Capítulo 7](https://salesmendesandre.github.io/daa_vue/main/vue/p3c7_ruteo_y_estado_global.html)
 
 ### Capítulo 8 – PrimeVue y ecosistema
-- `08_prime_vue/01_prime_vue`: instalación de PrimeVue con tema Aura, PrimeFlex e íconos, usando auto-import de componentes. [Capítulo 8](https://salesmendesandre.github.io/daa_vue/main/vue/p3c8_prime_vue.html)
+- `08_prime_vue`: instalación de PrimeVue con tema Aura, PrimeFlex e íconos, usando auto-import de componentes. [Capítulo 8](https://salesmendesandre.github.io/daa_vue/main/vue/p3c8_prime_vue.html)
 
 ### Capítulo 9 – Formularios con PrimeVue Forms
-- `09_prime_vue_forms/01_prime_vue_forms`: formularios con el add-on `@primevue/forms` y validación con resolutores basados en Zod. [Capítulo 9](https://salesmendesandre.github.io/daa_vue/main/vue/p3c9_prime_vue_forms.html)
+- `09_prime_vue_forms`: formularios con el add-on `@primevue/forms` y validación con resolutores basados en Zod. [Capítulo 9](https://salesmendesandre.github.io/daa_vue/main/vue/p3c9_prime_vue_forms.html)
 
 ### Capítulo 10 – Integración Firebase: Autenticación
 - `10_firebase_auth`: configuración del SDK modular v9, alta e inicio de sesión con email/contraseña y Google, más gestión de sesión reactiva. [Capítulo 10](https://salesmendesandre.github.io/daa_vue/main/vue/p4c10_firebase_auth_firestore.html)
