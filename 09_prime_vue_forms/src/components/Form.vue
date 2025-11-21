@@ -1,84 +1,81 @@
 <template>
-    <div class="card flex justify-center">
-        <Toast />
+    <div class="card flex flex-column align-items-center gap-5">
+        Añadir Producto
 
-      <div class="flex flex-col gap-6 w-full sm:w-auto">
-    <div class="flex flex-col sm:flex-row sm:items-center gap-6">
-        <div class="flex-auto">
-            <label for="firstname" class="block font-semibold mb-2">Firstname</label>
-            <InputText id="firstname" class="w-full" />
+        <Form
+            v-slot="$form"
+            :initialValues="initialValues"
+            :resolver="resolver"
+            @submit="onFormSubmit"
+            class="flex flex-column gap-4 w-full sm:w-56"
+            >
+            <div class="flex flex-column gap-1">
+                <InputText name="id" type="text" placeholder="ID" fluid />
+                <Message
+                v-if="$form.id?.invalid"
+                severity="error"
+                size="small"
+                variant="simple"
+                >
+                {{ $form.id.error.message }}
+                </Message>
+            </div>
+
+            <div class="flex flex-column gap-1">
+                <InputText name="price" type="number" placeholder="Precio" fluid />
+                <Message
+                v-if="$form.price?.invalid"
+                severity="error"
+                size="small"
+                variant="simple"
+                >
+                {{ $form.price.error.message }}
+                </Message>
+            </div>
+
+            <Button type="submit" severity="secondary" label="Enviar" />
+
+            <!-- El slot expone el estado completo del formulario -->
+            {{ $form }}
+            </Form>
         </div>
-        <div class="flex-auto">
-            <label for="lastname" class="block font-semibold mb-2">Lastname</label>
-            <InputText id="lastname" class="w-full" />
-        </div>
-    </div>
-    <div class="flex flex-col sm:flex-row sm:items-center gap-6">
-        <div class="flex-1">
-            <label for="date" class="block font-semibold mb-2">Date</label>
-            <DatePicker inputId="date" class="w-full" />
-        </div>
-        <div class="flex-1">
-            <label for="country" class="block font-semibold mb-2">Country</label>
-            <Select v-model="selectedCountry" inputId="country" :options="countries" optionLabel="name" placeholder="Select a Country" class="w-full">
-                <template #value="slotProps">
-                    <div v-if="slotProps.value" class="flex items-center">
-                        <img :alt="slotProps.value.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="`mr-2 flag flag-${slotProps.value.code.toLowerCase()}`" style="width: 18px" />
-                        <div>{{ slotProps.value.name }}</div>
-                    </div>
-                    <span v-else>
-                        {{ slotProps.placeholder }}
-                    </span>
-                </template>
-                <template #option="slotProps">
-                    <div class="flex items-center">
-                        <img :alt="slotProps.option.label" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="`mr-2 flag flag-${slotProps.option.code.toLowerCase()}`" style="width: 18px" />
-                        <div>{{ slotProps.option.name }}</div>
-                    </div>
-                </template>
-            </Select>
-        </div>
-    </div>
-    <div class="flex-auto">
-        <label for="message" class="block font-semibold mb-2">Message</label>
-        <Textarea id="message" class="w-full" rows="4" />
-    </div>
-</div>
-    </div>
 </template>
 
 <script setup>
-import { reactive } from 'vue';
-import { useToast } from 'primevue/usetoast';
-import { Form } from '@primevue/forms';
+import { ref } from 'vue'
+import { z } from 'zod'
+import { Form } from '@primevue/forms'
+import { zodResolver } from '@primevue/forms/resolvers/zod'
+import InputText from 'primevue/inputtext'
+import Message from 'primevue/message'
+import Button from 'primevue/button'
 
+// Estado inicial que vive dentro del componente Form
+const initialValues = ref({
+    id: '',
+    price: 0
+})
 
-const toast = useToast();
+// El resolver traduce el esquema de Zod a las reglas que entiende el Form
+const resolver = ref(
+    zodResolver(
+        z.object({
+        id: z.string().min(1, { message: 'ID es necesario' }),
+        price: z.coerce
+            .number({
+            required_error: 'Precio es requerido',
+            invalid_type_error: 'Precio debe ser un número'
+            })
+            .min(1, { message: 'Precio debe ser al menos 1' })
+            .max(1000, { message: 'Precio debe ser como máximo 1000' })
+        })
+    )
+)
 
-const initialValues = reactive({
-    username: ''
-});
-
-const resolver = ({ values }) => {
-    const errors = {};
-
-    if (!values.username) {
-        errors.username = [{ message: 'Username is required.' }];
-    }
-
-    return {
-        values, // (Optional) Used to pass current form values to submit event.
-        errors
-    };
-};
-
-const onFormSubmit = ({ valid }) => {
+const onFormSubmit = ({ valid, values }) => {
     if (valid) {
-        toast.add({
-            severity: 'success',
-            summary: 'Form is submitted.',
-            life: 3000
-        });
+        // Aquí iría la acción real (guardar, llamar a una API, etc.)
+        console.log('Form submitted', values)
     }
-};
+}
 </script>
