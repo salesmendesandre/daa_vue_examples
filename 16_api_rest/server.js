@@ -54,8 +54,8 @@ app.delete("/productos/:id", (req, res) => {
     }
     productos.splice(idx, 1);
     res.status(204).send();
-});
+}); 
 
 app.listen(4000, () => {
-    console.log("API escuchando en http://localhost:3000");
+    console.log("API escuchando en http://localhost:4000");
 });

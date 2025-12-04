@@ -12,5 +12,5 @@ connectDB()
 app.use('/', routes)
 
 app.listen(4000, () => {
-  console.log('Servidor escuchando en http://localhost:3000')
+  console.log('Servidor escuchando en http://localhost:4000')
 })

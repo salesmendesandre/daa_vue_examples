@@ -4,7 +4,7 @@ import indexRoutes from './routes/index.routes.js'
 import { loggerMiddleware } from './middlewares/logger.controller.js'
 
 const app = express()
-const PORT = 3000
+const PORT = 4000
 
 app.use(express.json())
 app.use(loggerMiddleware)

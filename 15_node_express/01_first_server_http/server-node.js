@@ -7,6 +7,6 @@ const server = http.createServer((req, res) => {
   res.end('Hola desde Node sin Express\n')
 })
 
-server.listen(3000, () => {
-  console.log('Servidor escuchando en http://localhost:3000')
+server.listen(4000, () => {
+  console.log('Servidor escuchando en http://localhost:4000')
 })
