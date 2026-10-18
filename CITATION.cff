@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: 'Ejemplos del libro Desarrollo de Aplicaciones Multiplataforma con Vue'
+message: 'Si utilizas estos ejemplos, cítalos usando estos metadatos.'
+type: software
+authors:
+  - given-names: André Filipe
+    family-names: Sales Mendes
+    email: andremendes@usal.es
+    affiliation: Universidad de Salamanca
+    orcid: 'https://orcid.org/0000-0003-0976-2784'
+version: 1.0.0
+license: MIT
+repository-code: 'https://github.com/salesmendesandre/daa_vue_examples'
+url: 'https://salesmendesandre.github.io/daa_vue/main/intro.html'
+abstract: >-
+  Proyectos de ejemplo que acompañan, capítulo a capítulo, al libro
+  Desarrollo de Aplicaciones Multiplataforma con Vue: frontends con Vue 3,
+  Vite, Vue Router, Pinia, PrimeVue y Firebase, y APIs con Node.js, Express,
+  MongoDB, JWT y Multer.
+keywords:
+  - Vue.js
+  - Vue 3
+  - Vite
+  - Pinia
+  - PrimeVue
+  - Firebase
+  - Node.js
+  - Express
+  - MongoDB
+references:
+  - type: book
+    title: 'Desarrollo de Aplicaciones Multiplataforma con Vue'
+    authors:
+      - given-names: André Filipe
+        family-names: Sales Mendes
+        orcid: 'https://orcid.org/0000-0003-0976-2784'
+    url: 'https://salesmendesandre.github.io/daa_vue/main/intro.html'
+    repository: 'https://github.com/salesmendesandre/daa_vue'

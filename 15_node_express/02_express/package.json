@@ -1,0 +1,16 @@
+{
+  "name": "02_express",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "server-express.js",
+  "scripts": {
+    "dev": "node server-express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

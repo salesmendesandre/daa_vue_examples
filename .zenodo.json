@@ -1,0 +1,45 @@
+{
+  "title": "Ejemplos del libro Desarrollo de Aplicaciones Multiplataforma con Vue",
+  "upload_type": "software",
+  "description": "<p>Proyectos de ejemplo que acompañan, capítulo a capítulo, al libro <em>Desarrollo de Aplicaciones Multiplataforma con Vue</em>, material de la asignatura <em>Desarrollo de Aplicaciones Avanzadas</em> (optativa de cuarto curso del Grado en Ingeniería Informática, Universidad de Salamanca).</p><p>Incluye proyectos frontend con Vue 3 y Vite (componentes, directivas, Composition API, Vue Router, Pinia, PrimeVue y Firebase) y APIs backend con Node.js y Express (API REST, MongoDB/Mongoose, autenticación JWT y subida de archivos con Multer). Cada carpeta se instala con <code>npm install</code> y se ejecuta con <code>npm run dev</code>; el README de la raíz relaciona cada carpeta con su capítulo.</p>",
+  "creators": [
+    {
+      "name": "Sales Mendes, André Filipe",
+      "affiliation": "Universidad de Salamanca",
+      "orcid": "0000-0003-0976-2784"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "language": "spa",
+  "version": "1.0.0",
+  "keywords": [
+    "Vue.js",
+    "Vue 3",
+    "Vite",
+    "Pinia",
+    "Vue Router",
+    "PrimeVue",
+    "Firebase",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "Multer",
+    "material docente"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/salesmendesandre/daa_vue",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-book"
+    },
+    {
+      "identifier": "https://salesmendesandre.github.io/daa_vue/main/intro.html",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-book"
+    }
+  ],
+  "notes": "Material de terceros excluido de la licencia MIT: los archivos vue.svg (logotipo de Vue.js, de Evan You, bajo CC BY-NC-SA 4.0, https://github.com/vuejs/art) y vite.svg (logotipo de Vite, incluido por las plantillas de create-vite) proceden de las plantillas oficiales de proyecto y conservan los términos de sus autores."
+}
