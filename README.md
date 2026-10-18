@@ -1,5 +1,7 @@
 # Ejemplos del libro "Desarrollo de Aplicaciones Multiplataforma con Vue"
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23451114.svg)](https://doi.org/10.5281/zenodo.23451114)
+
 <p align="center">
   <img src="https://salesmendesandre.github.io/daa_vue/main/_static/Cover.png" alt="Portada del libro Desarrollo de Aplicaciones Multiplataforma con Vue" width="40%" />
 </p>
@@ -100,7 +102,15 @@ Si detectas una diferencia entre el libro y el ejemplo correspondiente, abre un 
 
 ## Cómo citar
 
-Usa los metadatos de [`CITATION.cff`](CITATION.cff) (botón *Cite this repository* de GitHub).
+Si utilizas estos ejemplos, cítalos así:
+
+> Sales Mendes, A. F. (2026). *Ejemplos del libro Desarrollo de Aplicaciones Multiplataforma con Vue* [Software]. Zenodo. https://doi.org/10.5281/zenodo.23451114
+
+Y el libro al que acompañan:
+
+> Sales Mendes, A. F. (2026). *Desarrollo de Aplicaciones Multiplataforma con Vue*. Universidad de Salamanca. Zenodo. https://doi.org/10.5281/zenodo.23451116
+
+Los metadatos completos están en [`CITATION.cff`](CITATION.cff) (botón *Cite this repository* de GitHub).
 
 ## Licencia
 
